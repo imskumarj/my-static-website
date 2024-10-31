@@ -11,3 +11,9 @@ build:
     - name: Build Application
       run: |
         npm run build
+    - name: Run Unit Tests
+      run: |
+        npm run test:unit
+    - name: Run Integration Tests
+      run: |
+        npm run test:integration
